@@ -13,7 +13,7 @@ cp -r awconf/* ~/.config/awesome
 cp .xinitrc ~/.xinitrc
 cp .bashrc ~/.bashrc
 cp .zshrc ~/.zshrc
-
+cp .face ~/.face
 
 ## LIGHTDM
 
