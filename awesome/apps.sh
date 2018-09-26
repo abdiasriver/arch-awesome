@@ -1,4 +1,4 @@
-adobe-source-sans-pro-fonts alsa-utils arandr arc-gtk-theme arcolinux-arc-themes-git arcolinux-awesome-git arcolinux-bin-git arcolinux-config-git arcolinux-faces-git arcolinux-fonts-git arcolinux-neofetch-git arcolinux-nitrogen-git arcolinux-oblogout arcolinux-oblogout-themes-git arcolinux-root-git arcolinux-slim arcolinux-slimlock-themes-git arcolinux-termite-themes-git arcolinux-variety-git arcolinux-wallpapers-git arcolinux-xfce-thunar-git arj autofs awesome awesome-terminal-fonts axel 
+adobe-source-sans-pro-fonts alsa-utils arandr arc-gtk-theme arj autofs awesome awesome-terminal-fonts axel 
 
 bash-completion btrfs-progs 
 
