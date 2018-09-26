@@ -5,7 +5,7 @@ echo "#######   APPS QUE TENGO, LA MAYORIA               #####"
 echo "#######    PUEDE YA ESTAR INSTALADA POR EL SISTEMA #####" 
 echo "########################################################"
 
-trizen -S adobe-source-sans-pro-fonts alsa-utils arandr arc-gtk-theme arj autofs awesome awesome-terminal-fonts axel 
+trizen -S adobe-source-sans-pro-fonts alsa-utils arandr arc-gtk-theme arj autofs awesome awesome-terminal-fonts axel ms-office-online
 
 trizen -S bash-completion btrfs-progs 
 
