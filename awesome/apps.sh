@@ -7,9 +7,9 @@ echo "########################################################"
 
 trizen -S adobe-source-sans-pro-fonts alsa-utils arandr arc-gtk-theme arj autofs awesome awesome-terminal-fonts axel 
 
-trizen -S  bash-completion btrfs-progs 
+trizen -S bash-completion btrfs-progs 
 
-trizen -S  cabextract cdrdao cdrtools compton conky-lua-archers cower cpio discord 
+trizen -S cabextract cdrdao cdrtools compton conky-lua-archers cower cpio discord 
 
 trizen -S dmenu dmidecode dnsmasq downgrade
 
