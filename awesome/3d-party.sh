@@ -31,4 +31,4 @@ echo "##################################################################"
 echo "###                  REPO arcolinux AGREGADO                  ####"
 echo "##################################################################"
 
-trizen -S arcolinux-arc-themes-git arcolinux-awesome-git arcolinux-bin-git arcolinux-config-git arcolinux-faces-git arcolinux-fonts-git arcolinux-neofetch-git arcolinux-nitrogen-git arcolinux-oblogout arcolinux-oblogout-themes-git arcolinux-root-git arcolinux-slim arcolinux-slimlock-themes-git arcolinux-termite-themes-git arcolinux-variety-git arcolinux-wallpapers-git arcolinux-xfce-thunar-git
+trizen -S arcolinux-awesome-git arcolinux-bin-git arcolinux-config-git arcolinux-faces-git arcolinux-fonts-git arcolinux-neofetch-git arcolinux-nitrogen-git arcolinux-oblogout arcolinux-oblogout-themes-git arcolinux-root-git arcolinux-slim arcolinux-slimlock-themes-git arcolinux-termite-themes-git arcolinux-variety-git arcolinux-wallpapers-git
