@@ -19,3 +19,5 @@ cp .face ~/.face
 
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings 
 sudo systemctl enable lightdm.service -f
+sudo cp -r lightdm/* /etc/lightdm/
+
