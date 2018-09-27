@@ -16,10 +16,18 @@ run "xfce4-power-manager"
 run "blueberry-tray"
 run "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 run "numlockx on"
-run "setxkbmap -layout latam"
+
+#############################################
+#################### IMPORTANT ##############
+#############################################
 ###synaptics tap to click on terminal do this and copy your device to synaptics.sh
 ###  sudo libinput list-devices
-run "./.config/awesome/synaptics.sh"
+#run "./.config/awesome/synaptics.sh"
+######change latam for you keyboard prefered
+#run "setxkbmap -layout latam"
+
+
+
 #run "sudo openvpn --config /etc/openvpn/openvpn.conf"
 #run "volumeicon"
 #run "nitrogen --restore"
@@ -27,7 +35,3 @@ run "./.config/awesome/synaptics.sh"
 
 #run applications from startup
 #run "firefox"
-#run "atom"
-#run "dropbox"
-#run "insync start"
-#run "spotify"
