@@ -5,7 +5,7 @@ echo "#######   APPS QUE TENGO, LA MAYORIA               #####"
 echo "#######    PUEDE YA ESTAR INSTALADA POR EL SISTEMA #####" 
 echo "########################################################"
 
-trizen -S adobe-source-sans-pro-fonts alsa-utils arc-gtk-theme ms-office-online --noconfirm --needed --noedit
+trizen -S adobe-source-sans-pro-fonts alsa-utils arc-gtk-theme --noconfirm --needed --noedit
 
 trizen -S bash-completion btrfs-progs --noconfirm --needed --noedit
 
@@ -41,7 +41,7 @@ trizen -S tamsyn-font temps termite thunar thunar-archive-plugin thunar-volman t
 
 trizen -S unace unrar unzip urxvt-perls urxvt-resize-font-git --noconfirm --needed --noedit
 
-trizen -S variety vicious vlc --noconfirm --needed --noedit
+trizen -S variety vlc --noconfirm --needed --noedit
 
 trizen -S wget --noconfirm --needed --noedit
 

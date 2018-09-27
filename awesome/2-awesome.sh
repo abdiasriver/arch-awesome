@@ -7,13 +7,15 @@ echo "################################################################"
 
 
 ## AWESOME
-sudo pacman -S awesome visius lxappearance leafpad epdfview nitrogen variety --noconfirm --needed
+sudo pacman -Sy
+sudo pacman -S awesome lxappearance leafpad epdfview nitrogen variety --noconfirm --needed
 mkdir -p ~/.config/awesome/
 cp -r awconf/* ~/.config/awesome
 cp -r .xinitrc ~/.xinitrc
 cp -r .bashrc ~/.bashrc
 cp -r .zshrc ~/.zshrc
 cp -r .face ~/.face
+#cp -r .oh-my-zsh ~/.oh-my-zsh
 
 sudo mkdir -p /usr/share/backgrounds/arcolinux/
 sudo mkdir -p /usr/share/pixmaps/faces/
