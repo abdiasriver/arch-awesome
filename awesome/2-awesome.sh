@@ -8,12 +8,12 @@ echo "################################################################"
 
 ## AWESOME
 sudo pacman -Sy
-sudo pacman -S awesome lxappearance leafpad epdfview nitrogen variety --noconfirm --needed
+sudo pacman -S awesome lxappearance leafpad epdfview nitrogen --noconfirm --needed
 mkdir -p ~/.config/awesome/
 cp -r awconf/* ~/.config/awesome
 cp -r .xinitrc ~/.xinitrc
 cp -r .bashrc ~/.bashrc
-cp -r .zshrc ~/.zshrc
+#cp -r .zshrc ~/.zshrc
 cp -r .face ~/.face
 #cp -r .oh-my-zsh ~/.oh-my-zsh
 
@@ -37,3 +37,8 @@ sudo pacman -Syyu --noconfirm
 #enabling displaymanager or login manager
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
+
+echo "################################################################"
+echo "####             NO OLVIDES INSTALAR DRIVERS VIDEO          ####"
+echo "####                                                        ####"
+echo "################################################################"

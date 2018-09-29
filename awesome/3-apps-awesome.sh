@@ -41,7 +41,7 @@ trizen -S tamsyn-font temps termite thunar thunar-archive-plugin thunar-volman t
 
 trizen -S unace unrar unzip urxvt-perls urxvt-resize-font-git --noconfirm --needed --noedit
 
-trizen -S variety vlc --noconfirm --needed --noedit
+trizen -S vlc --noconfirm --needed --noedit
 
 trizen -S wget --noconfirm --needed --noedit
 
