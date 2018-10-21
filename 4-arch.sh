@@ -26,6 +26,6 @@ echo "##########################################################################
 echo "####                   Para salir ejecuta lo siguiente                  ####"
 echo "####    cd   ---->>>   exit ---->> umount -R /mnt  --->> reboot         ####"
 echo "############################################################################"
-
+su - abdias
 ##### openbox
 #git clone https://github.com/arcolinuxd/arco-openbox.git
