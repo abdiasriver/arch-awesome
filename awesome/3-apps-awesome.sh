@@ -15,7 +15,7 @@ trizen -S epdfview exfat-utils --noconfirm --needed --noedit
 
 trizen -S f2fs-tools ffmpegthumbnailer ffmpegthumbs file-roller --noconfirm --needed --noedit
 
-trizen -S git gnome-disk-utility gnome-keyring gst-libav gst-plugins-bad gst-plugins-ugly gthumb gtk-engine-murrine gtk2-perl gvfs gvfs-afc gvfs-goa gvfs-google gvfs-mtp --noconfirm --needed --noedit
+trizen -S git gnome-disk-utility gst-libav gst-plugins-bad gst-plugins-ugly gthumb gtk-engine-murrine gtk2-perl gvfs gvfs-afc gvfs-goa gvfs-google gvfs-mtp --noconfirm --needed --noedit
 
 trizen -S hardinfo hddtemp htop --noconfirm --needed --noedit
 
@@ -27,11 +27,11 @@ trizen -S lib32-mesa lib32-mesa-vdpau libdvdcss libva-intel-driver libva-vdpau-d
 
 trizen -S mesa-vdpau mtpfs mutter --noconfirm --needed --noedit
 
-trizen -S neofetch network-manager-applet networkmanager networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc noto-fonts ntfs-3g numlockx --noconfirm --needed --noedit
+trizen -S noto-fonts ntfs-3g numlockx --noconfirm --needed --noedit
 
 trizen -S p7zip pavucontrol perl-linux-desktopfiles pkgstats python-pywal --noconfirm --needed --noedit
 
-trizen -S qt5-declarative --noconfirm --needed --noedit
+#trizen -S qt5-declarative --noconfirm --needed --noedit
 
 trizen -S rxvt-unicode --noconfirm --needed --noedit
 
@@ -43,7 +43,7 @@ trizen -S unace unrar unzip urxvt-perls urxvt-resize-font-git --noconfirm --need
 
 trizen -S vlc --noconfirm --needed --noedit
 
-trizen -S wget --noconfirm --needed --noedit
+#trizen -S wget --noconfirm --needed --noedit
 
 trizen -S xcursor-breeze --noconfirm --needed --noedit
 
@@ -52,7 +52,7 @@ trizen -S xcursor-breeze --noconfirm --needed --noedit
 #trizen -S xorg-iceauth xorg-luit xorg-server xorg-server-xwayland xorg-sessreg xorg-smproxy xorg-x11perf xorg-xbacklight xorg-xcmsdb xorg-xcursorgen xorg-xdriinfo xorg-xev xorg-xgamma xorg-xhost xorg-xinit xorg-xinput xorg-xkbevd xorg-xkbutils xorg-xkill xorg-xlsatoms xorg-xlsclients xorg-xpr xorg-xrefresh xorg-xset xorg-xsetroot xorg-xvinfo xorg-xwd xorg-xwininfo xorg-xwud
 
 
-trizen -S zip zramswap --noconfirm --needed --noedit
+#trizen -S zip zramswap --noconfirm --needed --noedit
 
 
 

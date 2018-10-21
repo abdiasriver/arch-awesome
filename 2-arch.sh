@@ -1,6 +1,20 @@
 #!/bin/bash
 set -e
+echo "####         3---Agregando un hostname            ####"
+echo river > /etc/hostname
+echo "####         3.1---Activando fstrim para ssd          ####"
+systemctl enable fstrim.timer
 
+
+##descomentar en el nano /etc/pacman.conf multilib
+#echo -e "[archlinuxfr]\r\nSigLevel = Never" >> /etc/pacman.conf
+##Checa el /etc/pacman.conf que se agregado el siguiente archlinuxfr  y al final del server $arch
+### echo -e "Server = http://repo.archlinux.fr/$arch" >> /etc/pacman.conf
+
+echo "####         3.2---Actualizar repos                ####"
+pacman -Sy
+echo "####         3.3---cambiar el passwd root          ####"
+passwd
 echo "####         3.4---Agregando USUARIO              ####"
 useradd -m -g users -G rfkill,wheel,network,lp,storage,power,video,audio,lp -s /bin/bash abdias
 echo "####         3.5---Modificar el PASSWORD          ####"
@@ -18,3 +32,10 @@ EDITOR=nano visudo
 ### y Agregale alli mismo
 #Defaults rootpw
 ### guarda y cierra
+#Lista all timezone
+ln -s /usr/share/zoneinfo/America/Monterrey > /etc/localtime
+#hwclock --systohc --utc
+#Lista all timezone
+#timedatectl list-timezones
+timedatectl set-timezone "America/Monterrey"
+mkinitcpio -p linux

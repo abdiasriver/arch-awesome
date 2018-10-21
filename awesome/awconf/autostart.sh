@@ -22,9 +22,9 @@ run "numlockx on"
 #############################################
 ###synaptics tap to click on terminal do this and copy your device to synaptics.sh
 ###  sudo libinput list-devices
-#run "./.config/awesome/synaptics.sh"
+run "./.config/awesome/synaptics.sh"
 ######change latam for you keyboard prefered
-#run "setxkbmap -layout latam"
+run "setxkbmap -layout latam"
 
 
 

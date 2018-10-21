@@ -8,9 +8,10 @@ echo "################################################################"
 
 ## AWESOME
 sudo pacman -Sy
-sudo pacman -S awesome lxappearance leafpad epdfview nitrogen --noconfirm --needed
+sudo pacman -S awesome variety lxappearance leafpad epdfview nitrogen termite colordiff git --noconfirm --needed
 mkdir -p ~/.config/awesome/
 cp -r awconf/* ~/.config/awesome
+cp -r variety/* ~/.config/variety
 cp -r .xinitrc ~/.xinitrc
 cp -r .bashrc ~/.bashrc
 #cp -r .zshrc ~/.zshrc
@@ -22,6 +23,10 @@ sudo mkdir -p /usr/share/pixmaps/faces/
 sudo cp -r imgs/yosemite.jpg /usr/share/backgrounds/arcolinux/
 sudo cp -r imgs/golden.png /usr/share/pixmaps/faces/
 
+## DOTFILES
+ sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc ~/
+ sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc /home/${username}/
+  rm -fr dotfiles
 ## LIGHTDM
 
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
