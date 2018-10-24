@@ -6,8 +6,6 @@
 --]]
 
 -- {{{ Required libraries
-require("awful.remote")
-require("screenful")
 local awesome, client, mouse, screen, tag = awesome, client, mouse, screen, tag
 local ipairs, string, os, table, tostring, tonumber, type = ipairs, string, os, table, tostring, tonumber, type
 

@@ -8,7 +8,7 @@ echo "################################################################"
 
 ## AWESOME
 sudo pacman -Sy
-sudo pacman -S awesome variety lxappearance leafpad epdfview nitrogen termite colordiff git --noconfirm --needed
+sudo pacman -S awesome variety lxappearance epdfview nitrogen termite colordiff git --noconfirm --needed
 mkdir -p ~/.config/awesome/
 cp -r awconf/* ~/.config/awesome
 cp -r variety/* ~/.config/variety
