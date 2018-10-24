@@ -10,6 +10,7 @@ echo "################################################################"
 sudo pacman -Sy
 sudo pacman -S awesome variety lxappearance epdfview nitrogen termite colordiff git --noconfirm --needed
 mkdir -p ~/.config/awesome/
+mkdir -p ~/.config/variety/
 cp -r awconf/* ~/.config/awesome
 cp -r variety/* ~/.config/variety
 cp -r .xinitrc ~/.xinitrc
@@ -23,6 +24,9 @@ sudo mkdir -p /usr/share/pixmaps/faces/
 sudo cp -r imgs/yosemite.jpg /usr/share/backgrounds/arcolinux/
 sudo cp -r imgs/golden.png /usr/share/pixmaps/faces/
 
+##Termite 
+mkdir -p ~/.config/termite/
+sudo cp -r config/termite/* ~/.config/termite
 ## DOTFILES
  sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc ~/
  sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc /home/${username}/
