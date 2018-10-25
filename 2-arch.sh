@@ -33,9 +33,9 @@ EDITOR=nano visudo
 #Defaults rootpw
 ### guarda y cierra
 #Lista all timezone
-ln -s /usr/share/zoneinfo/America/Monterrey > /etc/localtime
+#ln -s /usr/share/zoneinfo/America/Monterrey > /etc/localtime
 #hwclock --systohc --utc
 #Lista all timezone
 #timedatectl list-timezones
-timedatectl set-timezone "America/Monterrey"
-mkinitcpio -p linux
+#timedatectl set-timezone "America/Monterrey"
+#mkinitcpio -p linux
