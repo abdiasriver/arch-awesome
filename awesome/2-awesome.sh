@@ -8,7 +8,7 @@ echo "################################################################"
 
 ## AWESOME
 sudo pacman -Sy
-sudo pacman -S awesome variety lxappearance epdfview nitrogen termite colordiff git --noconfirm --needed
+sudo pacman -S awesome variety lxappearance neofetch epdfview nitrogen termite colordiff git xdg-user-dirs-gtk --noconfirm --needed
 mkdir -p ~/.config/awesome/
 mkdir -p ~/.config/variety/
 cp -r awconf/* ~/.config/awesome
@@ -28,9 +28,10 @@ sudo cp -r imgs/golden.png /usr/share/pixmaps/faces/
 mkdir -p ~/.config/termite/
 sudo cp -r config/termite/* ~/.config/termite
 ## DOTFILES
- sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc ~/
- sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc /home/${username}/
-  rm -fr dotfiles
+ #sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc ~/
+ #sudo cp -r dotfiles/.bashrc dotfiles/.dircolors dotfiles/.dircolors_256 dotfiles/.nanorc dotfiles/.yaourtrc /home/${username}/
+ # rm -fr dotfiles
+ 
 ## LIGHTDM
 
 sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed
@@ -47,6 +48,13 @@ sudo pacman -Syyu --noconfirm
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
+# color folders
+git clone https://github.com/thombashi/dotfiles.git
+cd dotfiles/
+bash install.sh
+cd ..
+timedatectl set-timezone "America/Monterrey"
+sudo mkinitcpio -p linux
 echo "################################################################"
 echo "####             NO OLVIDES INSTALAR DRIVERS VIDEO          ####"
 echo "####                                                        ####"
